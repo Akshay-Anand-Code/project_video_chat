@@ -6,7 +6,7 @@ const SocketContext = createContext();
 
 // const socket = io('http://localhost:5000');
 // const socket = io('https://fascinating-taiyaki-d40ccb.netlify.app/');
-const socket = io('https://api.render.com/deploy/srv-chh5kse4dadbud9tpg70?key=HOzgQzL4oPQ');
+const socket = io('https://video-chat-app-5fnv.onrender.com/');
 
 
 const ContextProvider = ({ children }) => {
