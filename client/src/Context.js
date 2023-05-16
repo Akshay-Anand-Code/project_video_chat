@@ -4,8 +4,8 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-// const socket = io('http://localhost:5000');
-const socket = io('https://fascinating-taiyaki-d40ccb.netlify.app/');
+const socket = io('http://localhost:5000');
+// const socket = io('https://fascinating-taiyaki-d40ccb.netlify.app/');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
